@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad Flux', cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.container {
+    width: 350px;
+    padding: 0.5rem 1rem;
+    background-color: rgba(244, 238, 238, 0.9); /* Branco mais escuro */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Arredondar os cantos, opcional */
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    width: 100%;
+}
+label{
+    font-size: 1.2rem;
+}
+.valor{
+    width: 70%;
+    padding: .2rem ;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+
+}
+.btns{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.btns input {
+    width: 70px;
+    padding: 0.5rem;
+    border: 1px solid black;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out; 
+}
+
+
+    #usd {
+        background-color: #3b5998; 
+    }
+
+    #eur {
+        background-color: #007bff; 
+    }
+
+    #btc {
+        background-color: #ff9900; 
+    }
+
+    #gbp {
+        background-color: #dc3545; 
+    }
+
+   
+    #usd:hover {
+        background: linear-gradient(to right, #b22234, #3c3b6e,#ffffff); 
+    }
+
+    #eur:hover {
+        background: linear-gradient(to right, #003399, #ffcc00); 
+    }
+
+    #btc:hover {
+        background: linear-gradient(to right, #ff9900, #ffcc00); 
+    }
+
+    #gbp:hover {
+        background: linear-gradient(to right, #cf142b, #00247d,#ffffff); 
+    }
+
+.conversaoMoeda{
+    margin-top: 1rem;
+}
+
+.conversaoMoeda h1{
+    font-size: 1.5rem;
+}
+
+.conversaoMoeda p{
+    font-size: 1.2rem;
+}
