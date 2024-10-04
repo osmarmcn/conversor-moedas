@@ -22,7 +22,7 @@ function montarTela(objeto){
     valor.innerHTML = `R$: ${valorOriginalReal}`
 
     let valorConvertido = document.createElement('p');
-    valorConvertido.innerHTML = `${objeto.code}: ${(valorOriginalReal / objeto.bid).toFixed(2)}`
+    valorConvertido.innerHTML = `${objeto.code}: ${(valorOriginalReal / objeto.bid)}`
 
     conversaoMoedaDiv.appendChild(titulo)
     conversaoMoedaDiv.appendChild(valor)
